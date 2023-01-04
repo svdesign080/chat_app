@@ -1,5 +1,4 @@
 import 'package:chat_box/helper/navigation.dart';
-import 'package:chat_box/presentation/home_modual/home_screen.dart';
 import 'package:chat_box/presentation/home_modual/message_screen_modual/message_screen.dart';
 import 'package:chat_box/presentation/widgets/back_arrow_appbar.dart';
 import 'package:chat_box/presentation/widgets/custom_btn.dart';
@@ -9,7 +8,6 @@ import 'package:chat_box/utils/route_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import '../../utils/app_images.dart';
 import '../widgets/or_divider.dart';
 import '../widgets/spaces.dart';

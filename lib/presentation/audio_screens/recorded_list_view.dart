@@ -72,7 +72,6 @@ class _RecordListViewState extends State<RecordListView> {
   Future<void> _onPlay({required String filePath, required int index}) async {
     AudioPlayer audioPlayer = AudioPlayer();
 
-    // if (!_isPlaying) {
     audioPlayer.play(DeviceFileSource(filePath));
     setState(() {
       _selectedIndex = index;

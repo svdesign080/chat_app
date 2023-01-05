@@ -13,6 +13,7 @@ class RecordListView extends StatefulWidget {
   _RecordListViewState createState() => _RecordListViewState();
 }
 
+
 class _RecordListViewState extends State<RecordListView> {
   late int _totalDuration;
   late int _currentDuration;
